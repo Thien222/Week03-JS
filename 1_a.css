@@ -1,0 +1,116 @@
+.body {
+    width: 360px;
+    height: 640px;
+    position: relative;
+    margin: 0 auto; 
+    background: linear-gradient(180deg, #C7F4F7 0.03%, #D1F4F6 30.21%, #E5F4F5 85.42%, #37D6F8 96.5%, #00CCF9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px; 
+    box-sizing: border-box;
+}
+
+.icon_circle {
+    width: 142px;
+    height: 142px;
+    border: 15px solid #000000;
+    border-radius: 50%;
+    opacity: 1; 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text.content_1 {
+    font-family: Roboto, sans-serif;
+    width: 189px;
+    height: 58px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29.3px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff; 
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.text.content_2 {
+    width: 302px;
+    height: 36px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff; 
+    opacity: 1;
+}
+
+.button_log {
+    position: absolute;
+    top: 471px;  
+    left: 30px;
+    width: 125px;
+    height: 45px;
+    background: #E3C000;
+    opacity: 1;  
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button_log input {
+    width: 52px;
+    height: 21px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;
+    background: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button_sign {
+    position: absolute;
+    top: 471px;
+    left: 165px; 
+    width: 125px;
+    height: 45px;
+    background: #E3C000;
+    opacity: 1;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button_sign input {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
